@@ -1,0 +1,16 @@
+[package]
+name = "route"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+route_derive = { version = "0.1", path = "./route_derive" }
+route_shared = { version = "0.1", path = "./route_shared" }
+
+[workspace]
+members = [
+  ".",
+  "route_derive",
+  "route_shared",
+]

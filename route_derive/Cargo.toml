@@ -1,0 +1,15 @@
+[package]
+name = "route_derive"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+synstructure = "0.10.1"
+quote = "0.6.12"
+proc-macro2 = "0.4.27"
+syn = "0.15.32"
+route_shared = { version = "0.1", path = "../route_shared" }

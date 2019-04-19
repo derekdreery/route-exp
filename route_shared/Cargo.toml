@@ -1,0 +1,7 @@
+[package]
+name = "route_shared"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
